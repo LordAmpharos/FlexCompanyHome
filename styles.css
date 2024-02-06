@@ -59,11 +59,14 @@ h2 {
     flex-wrap: wrap;
 }
 
+.locationsSec {
+    background-color: cadetblue;
+}
+
 .location {
-    flex:1px;
+    flex:1;
     padding: 2rem;
     margin: 0px 1.25rem;
-    background-color: cadetblue;
 }
 
 .location .imageContainer {
@@ -86,4 +89,29 @@ h2 {
     font-size: 1rem;
     line-height: 1.2;
     font-weight: 400;
+}
+
+/* Products Section */
+
+.productsSec {
+    background-color: cadetblue;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+#products {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 5%;
+    flex-wrap: wrap;
+}
+
+.product {
+    flex:1;
+    padding: 2rem;
+    margin: 0px 1.25rem;
+}
+
+.ingredients {
+    list-style: none;
 }
